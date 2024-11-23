@@ -1,7 +1,7 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
-const { HARDHAT_PRIVATE_KEY, POLYGON_ALCHEMY_URL, POLYGON_PRIVATE_KEY, POLYGON_SCAN_API_KEY } = process.env;
+const { HARDHAT_PRIVATE_KEY,GANACHE_PRIVATE_KEY, POLYGON_ALCHEMY_URL, POLYGON_PRIVATE_KEY, POLYGON_SCAN_API_KEY } = process.env;
 
 module.exports = {
   solidity: "0.8.28",
