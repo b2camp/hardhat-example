@@ -31,7 +31,7 @@ describe("Token contract", function () {
     // To deploy our contract, we just have to call ethers.deployContract and await
     // its waitForDeployment() method, which happens once its transaction has been
     // mined.
-    const hardhatToken = await ethers.deployContract("Token");
+    const hardhatToken = await ethers.deployContract("Token",[1000000]);
 
     await hardhatToken.waitForDeployment();
 
